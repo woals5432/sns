@@ -20,7 +20,7 @@ nav {
 
     &.nav_bottom {
       li {
-        padding: 8px 0;
+        padding: 10px 0; 
       }
     }
   }
@@ -53,6 +53,7 @@ nav {
       display: inline-block;
       line-height: 36px;
       text-align: center;
+      margin-left:15px;
 
       &:hover {
         background: $gray4;
@@ -102,8 +103,8 @@ nav {
         .preview_time {
           font-size: 0.7em;
           font-weight: 300;
-          color: #dfe0df;
-          white-space: nowrap;
+          color: #8f8f8f;  
+          white-space: nowrap; 
           width: 55px;
         }
       }
